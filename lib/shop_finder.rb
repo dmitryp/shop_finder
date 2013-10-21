@@ -20,7 +20,8 @@ module ShopFinder
     1477  => 'Shoptime',
     2034  => 'E5',
     3447  => 'Alba',
-    3761  => 'Showrooms'
+    3761  => 'Showrooms',
+    4581  => 'SnowQueen'
   }
 
   class << self
