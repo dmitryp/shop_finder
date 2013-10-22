@@ -7,7 +7,7 @@ require 'shop_finder/product_page_parser'
 require 'shop_finder/shops/alba'
 
 dir = "shop_finder/shops"
-Dir[File.join("lib/", dir, "*.rb")].each {|file|
+Dir[File.join(File.dirname(__FILE__), dir, "*.rb")].each {|file|
   require File.join(dir, File.basename(file, ".rb"))
 }
 
