@@ -6,9 +6,10 @@ require 'shop_finder/agent'
 require 'shop_finder/product_page_parser'
 require 'shop_finder/shops/alba'
 
-dir = "lib/shop_finder/shops"
-$LOAD_PATH.unshift(dir)
-Dir[File.join(dir, "*.rb")].each {|file| require File.basename(file) }
+dir = "shop_finder/shops"
+Dir[File.join("lib/", dir, "*.rb")].each {|file|
+  require File.join(dir, File.basename(file, ".rb"))
+}
 
 
 module ShopFinder
