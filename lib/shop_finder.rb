@@ -4,7 +4,6 @@ require 'mechanize'
 require 'shop_finder/logger'
 require 'shop_finder/agent'
 require 'shop_finder/product_page_parser'
-require 'shop_finder/shops/alba'
 
 dir = "shop_finder/shops"
 Dir[File.join(File.dirname(__FILE__), dir, "*.rb")].each {|file|
