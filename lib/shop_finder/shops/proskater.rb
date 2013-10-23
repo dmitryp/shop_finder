@@ -6,13 +6,8 @@ module ShopFinder
       end
 
       def self.parse_images(page)
-        uri = page.uri.dup
-
         page.search('div#slider_products_small/ul/li/div.small_foto_product/img').map do |a|
-          path = '/' + a.attributes['src'].to_s.gsub('images_50x70','bimages')
-          uri.path = path
-          uri.query = nil
-          uri.to_s
+          a.attributes['src'].to_s.gsub('images_50x70','bimages')
         end
       end
     end
