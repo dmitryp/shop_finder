@@ -22,6 +22,7 @@ module ShopFinder
     2034  => 'E5',
     2775  => 'Mexx',
     3447  => 'Alba',
+    3564  => 'ModaSkidki',
     3761  => 'Showrooms',
     4581  => 'SnowQueen'
   }
