@@ -23,6 +23,7 @@ module ShopFinder
     3447  => 'Alba',
     3564  => 'ModaSkidki',
     3761  => 'Showrooms',
+    4102  => 'Wildberries',
     4581  => 'SnowQueen'
   }
 
