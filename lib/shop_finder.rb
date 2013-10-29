@@ -13,6 +13,7 @@ Dir[File.join(File.dirname(__FILE__), dir, "*.rb")].each {|file|
 
 module ShopFinder
   SHOP_NAME = {
+    153   => 'KupiVip',
     515   => 'Quelle',
     1001  => 'Lamoda',
     1186  => 'Proskater',
