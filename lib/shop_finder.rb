@@ -19,6 +19,7 @@ module ShopFinder
     1186  => 'Proskater',
     1326  => 'Topbrands',
     1477  => 'Shoptime',
+    1757  => 'Butik',
     2034  => 'E5',
     2775  => 'Mexx',
     3447  => 'Alba',
