@@ -7,7 +7,7 @@ module ShopFinder
 
       def self.parse_images(page)
         uri = page.uri.dup
-        page.search('nav.thumbs/a.setimg/img').map do |a|
+        page.search('nav.thumbs/div/a.setimg/img').map do |a|
           uri.scheme + ':' + a.attributes['s2src'].value
         end
       end
